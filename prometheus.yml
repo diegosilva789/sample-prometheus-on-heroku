@@ -5,7 +5,7 @@ scrape_configs:
   - job_name: 'prometheus'
     scrape_interval: 5s
     static_configs:
-      - targets: ['localhost']
+      - targets: ['pycemaker.herokuapp.com']
   # - job_name: 'salesforce'
   #       metrics_path: '/services/apexrest/api/v1/prometheus'
   #       scheme: http
